@@ -1,0 +1,489 @@
+#wrapper{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+#subheader{
+    width: 100%;
+    height: 30px;
+    background: green;
+    color: white;
+    margin-top: -15px;
+} 
+#subheader p {
+    float: left;
+    margin-top: 7px;
+
+}
+#subheader a {
+    float: right;
+    line-height: 30PX;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/* logo style */
+#main-header{
+    width: 100%;
+    height: 100px;
+    background:black;
+    float: left;
+    margin-top: -0px;
+
+}
+#logo{
+    width: 250px;
+    margin-top: 12px;
+    float: left;
+    color: white;
+}
+#ist{
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: cursive;
+
+}
+#iist{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+#search{
+    width: 650px;
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 4px;
+}
+.search-area{
+    width: 650px;
+    height: 48px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 10px;
+}
+.search-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: brown;
+    margin-left: -100px;  
+}
+/* user */
+#user-menu{
+    width: 300px;
+    float: right;
+    margin-top: 28px;
+}
+/* for list style */
+#user-menu  li{
+    float: left;
+    width:100px;
+    text-align: center;
+    list-style: none;
+    font-size: 21px;
+
+    
+}
+#user-menu li :hover{
+    font-size: 20px;
+    transition: all .5s ease;
+
+}
+#user-menu a :hover{
+    color: white;
+    text-decoration: none;
+}
+/* navication bar */
+#navigation{
+    width: 100%;
+    height: 35px;
+    float:left;
+    background:black ;
+    box-shadow: 10px 14px 50px 2px black;
+}
+nav{
+    width: 1280px;
+    margin: 0 auto;
+
+}
+nav a{
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+}
+nav a :hover{
+    font-size: 30px;
+    transition: all .5s ease;
+
+}
+/* .slider{
+    width: 100%;
+    max-width: 10%;
+    float: left;  
+    margin-bottom: 10px;
+} */
+
+/* PRODUCT */
+#heading-block{
+    width: 100%;
+    height: 10px;
+    float: left;
+    font-size: 22px;
+}
+#heading-block h2{
+    line-height: 35px;
+    border-left: 20px solid black;
+    padding-left: 10px;
+
+}
+.icon-shopping-cart{
+    font-size:xx-large;
+}
+.container{
+    float: left;
+}
+/* category boxes */
+.catbox{
+    width: 235px;
+    height: 235px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 15px 30px 0px;
+    float: left;
+
+
+}
+.catbox span{
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background: rgba(0,0,0,0.6);
+   color: white;
+   display: block;
+   bottom:  44px;
+   position:absolute;
+   z-index: 999;
+   text-align: center;
+}
+.catbox img {
+    max-width: 100%;
+    transition: all .5s ease;
+
+}
+.catbox:hover img{
+    transform: scale(1.2, 1.2);
+    transition: all .5s ease;
+}
+/* product */
+.ball{
+    margin-top:430px ;
+}
+.job{
+
+        width: 100%;
+        height: 10px;
+        float: left;
+        font-size: 22px;
+}
+.job h2 {
+    line-height: 35px;
+    border-left: 20px solid black;
+    padding-left: 10px;
+
+}
+.numb{
+    width: 235px;
+    height: 235px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 15px 30px 0px;
+    float: left;
+
+
+}
+.numb span {
+    width: 96%;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0,0,0,0.6);
+     color: white;
+     display: block;
+     bottom:  10px;
+     position:absolute;
+     z-index: 999;
+     text-align: center;
+
+}
+.numb  img{
+    max-width: 98%;
+    transition: all .5s ease;
+}
+.numb:hover img{
+    transform: scale(1.0, 1.0);
+    transition: all .5s ease;
+
+}
+/* nop */
+.nop span{
+    width: 87%;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0,0,0,0.6);
+     color: white;
+     display: block;
+     bottom:  10px;
+     position:absolute;
+     z-index: 999;
+     text-align: center;
+     margin-left: 14px;
+    
+
+}
+.nop{ 
+width: 235px;
+height: 235px;
+position: relative;
+overflow: hidden;
+margin: 0px 15px 30px 0px;
+float: left;
+}
+/* transopjf */
+.trans{
+    background-color:rgba(0,0,0,0.6);
+    width: 97%;
+    height: 225px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0;
+}
+.numb:hover .trans{
+    opacity: 1;
+
+}
+/* hover of price */
+.produce{
+    text-align: center;
+    margin-top: -100px;
+    transition: all .5s ease;
+}
+.produce p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.trans:hover .produce{
+    margin-top: 65px;
+    transition: all .5s ease;
+}
+.man-u{
+    margin-top: 750px;
+}
+.gold{
+    
+    width: 100%;
+    height: 10px;
+    float: left;
+    font-size: 22px;
+}
+.gold h2{
+    line-height: 35px;
+    border-left: 20px solid black;
+    padding-left: 10px;
+
+}
+.bxslider{
+    margin-left: -50px;
+}
+/* games */
+.games{
+    margin-top: 1650px;
+}
+.speta{
+    width: 100%;
+        height: 10px;
+        float: left;
+        font-size: 22px;
+
+}
+.speta h2{
+    line-height: 35px;
+    border-left: 20px solid black;
+    padding-left: 10px;
+
+
+}
+/* painting art */
+.roll{
+    margin-top: 1950px;
+
+}
+.royce{
+    width: 100%;
+    height: 10px;
+    float: left;
+    font-size: 22px;
+}
+.royce h2{
+    line-height: 35px;
+    border-left: 20px solid black;
+    padding-left: 10px;
+
+}
+/* footer */
+
+.football{
+    width: 100%;
+    height: 150px;
+    background: black;
+    margin-top: 2080px;
+}
+.football{
+    color:white;
+    
+}
+.bbo{
+    margin-top: -99px;
+    margin-left: 15px;
+}
+
+
+
+.hhb{
+    margin-top: -137px;
+    margin-left: 370px;
+}
+.hhb li{
+    color: white;
+
+}
+.hkn{
+    margin-left: 1200px;
+    }
+.zip{
+    margin-left: 750px;
+    margin-top: -150px;
+}
+.zip li{
+    margin-left: -37px;
+}
+.coco{
+    margin-left: 1200px;
+    margin-top: -130px;
+}
+.image-title{
+	width:20%;
+	border-radius: 100px;
+	padding: 7% 15%;
+    
+}
+.carousel-item{
+    margin-left: 1000px;
+    margin-top: -30px;
+
+}
+/* rice */
+.rice{
+    margin-top: 1300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
